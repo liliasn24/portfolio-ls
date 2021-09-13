@@ -15,4 +15,8 @@
   - Organize better the CSS code
 
 
+## Improvements to Unit 1 project:
 
+ - So many, but to start, re doing the CSS
+ - Clean the code to have a better organization
+ - Maybe add more cards to the board

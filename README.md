@@ -10,7 +10,7 @@
 
 ## Improvements to Unit 3 project:
 
-  - Add compund interest formula to the project
+  - Add compound interest formula to the project
   - Organize the files in the pages folder and on the components folder
   - Organize better the CSS code
 

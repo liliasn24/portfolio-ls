@@ -58,7 +58,7 @@
       background: $medium-color;
       color: set-text-color($medium-color);
     }
-  }
+  } 
 
   .lead {
     font-size: 1.3rem;
@@ -67,4 +67,62 @@
   
   .text-center {
     text-align: center;
+    font-family: "Josefin Sans', sans-serif";
   }
+
+  // Padding
+.py {
+    padding: 20px;
+    margin: 10px;
+}
+
+
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container-work{
+
+    margin: 20px;
+    padding-top: 20px;
+
+    li{
+      margin: 20px;
+      padding: 30px;
+      font-size: 22px;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+
+  img {
+    border-radius: 280px;
+    padding: 15px;
+    margin: 20px;
+    border-style: solid;
+    border-color: $main-color;
+  }
+
+  .project {
+    color: white;
+    font-family: "Josefin Sans', sans-serif";
+
+
+  }
+
+  .social{
+    font-size: 35px;
+    margin: 35px;
+    padding: 35px;
+    a:hover{
+      font-size: 70px;
+    }
+  }
+
+
+
+
+
+
+
+
+

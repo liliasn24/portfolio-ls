@@ -4,16 +4,17 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
 body {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.6;
     background: black;
 }
-
+ 
 a {
     text-decoration: none;
-    color: $dark-color;
+    color: $main-color;
 }
 
 ul {
@@ -25,7 +26,7 @@ h2, h3, h4 {
 }
 
 img {
-    width: 100%;
+    width: 35%;
 }
 
 #main-nav {
@@ -76,50 +77,54 @@ img {
         }
       }
     }
+
+
+
+// ****************F O O T E R**************************************
+
+  // #main-footer {
+  //   background: $dark-color;
+  //   color: #fff;
+  //   height: 5rem;
   
-    // Header Inner
-    &-inner {
-      background: $bg-image no-repeat 20% 30% / cover;
-      height: 5.5rem;
-      border-bottom: 3px solid $main-color;
-    }
+  //   .footer-content {
+  //     display: flex;
+  //     justify-content: space-between;
+  //     height: 5rem;
+  //     align-items: center;
+  
+  //     .social .fab {
+  //       margin-right: 1rem;
+  //       border: 2px #fff solid;
+  //       border-radius: 50%;
+  //       height: 20px;
+  //       width: 20px;
+  //       line-height: 20px;
+  //       text-align: center;
+  //       padding: 0.5rem;
+  
+  //       &:hover {
+  //         background: $main-color;
+  //       }
+  //     }
+  //   }
+  // }
+
+// ***************** A B O U T *********************
+
+
+  
   }
 
-
-      .bio {
-        border-left: 3px solid;
-        padding: 0.8rem;
-        color: white;
-      }
-
-  #main-footer {
-    background: $dark-color;
-    color: #fff;
-    height: 5rem;
-  
-    .footer-content {
-      display: flex;
-      justify-content: space-between;
-      height: 5rem;
-      align-items: center;
-  
-      .social .fab {
-        margin-right: 1rem;
-        border: 2px #fff solid;
-        border-radius: 50%;
-        height: 20px;
-        width: 20px;
-        line-height: 20px;
-        text-align: center;
-        padding: 0.5rem;
-  
-        &:hover {
-          background: $main-color;
-        }
-      }
-    }
+  h3 {
+    margin: 20px;
+    padding: 20px;
   }
 
+  .about-right {
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+  }
 
-
-
+ 
